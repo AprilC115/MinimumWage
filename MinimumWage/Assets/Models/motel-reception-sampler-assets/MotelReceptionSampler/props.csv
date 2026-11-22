@@ -1,0 +1,4 @@
+prop,triangles,width_m,depth_m,height_m,wall_mounted
+service_bell,180,0.11,0.11,0.08,False
+desk_phone,94,0.4,0.24,0.14,False
+no_vacancy_sign,44,0.48,0.13,0.18,False

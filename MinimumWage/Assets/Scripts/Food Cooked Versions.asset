@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8a6ef1870d7ec4da92683b5b4e90dd, type: 3}
+  m_Name: Food Cooked Versions
+  m_EditorClassIdentifier: Assembly-CSharp::Food
+  rawFood: {fileID: 2133792350832887140, guid: 0cc83c4bce4d34d57a4a1a78171ab13c, type: 3}
+  cookedFood: {fileID: 2783925153918729851, guid: 59f6c57072b1d443b81c5c84311aaa06, type: 3}
+  burntFood: {fileID: 2483253305112639574, guid: 04d1e863a73d9436b90df052c5b969f5, type: 3}
