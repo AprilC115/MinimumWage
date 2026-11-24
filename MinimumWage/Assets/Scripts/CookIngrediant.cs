@@ -14,11 +14,13 @@ public class CookIngrediant : MonoBehaviour
     private Coroutine cookingCoroutine;
 
     private bool isReplacingFood = false;
+    private AudioSource cookingSound;
 
     void Start()
     {
         socketInteractor = GetComponent<XRSocketInteractor>();
         interactionManager = FindFirstObjectByType<XRInteractionManager>();
+        cookingSound = GetComponent<AudioSource>();
     }
 
     public void StartCooking(SelectEnterEventArgs args)
@@ -28,6 +30,7 @@ public class CookIngrediant : MonoBehaviour
         if (cookingCoroutine != null) StopCoroutine(cookingCoroutine);
 
         cookingCoroutine = StartCoroutine(CookingRoutine(args));
+        cookingSound.Play();
         
     }
 
@@ -39,6 +42,7 @@ public class CookIngrediant : MonoBehaviour
         {
             StopCoroutine(cookingCoroutine);
             cookingCoroutine = null;
+            cookingSound.Stop();
 
             Debug.Log("Player removed food");
         }
@@ -133,6 +137,10 @@ public class CookIngrediant : MonoBehaviour
         GameObject burnt = Instantiate(recipe.burntFood, position, rotation);
 
         XRGrabInteractable burntGrab = burnt.GetComponent<XRGrabInteractable>();
+        if (cookingSound.isPlaying)
+        {
+            cookingSound.Stop();
+        }
 
         if(burntGrab != null)
         {
@@ -140,6 +148,7 @@ public class CookIngrediant : MonoBehaviour
         }
         isReplacingFood = false;
 
+        
         cookingCoroutine = null;
     }
 

@@ -94,6 +94,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ab653db2c9f4049ada3896888a5dad40, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5038756202922411323}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ab653db2c9f4049ada3896888a5dad40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4898459652745966462}
     - targetCorrespondingSourceObject: {fileID: 5918151451462514725, guid: ab653db2c9f4049ada3896888a5dad40, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2199225844059186707}
@@ -295,6 +298,20 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &4898459652745966462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2783925153918729851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eca752422db30e4da28cf0a2523a10e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrderItem
+  type: 1
+  itemName: Bacon
 --- !u!1 &5606851213345160916 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7470519073293696510, guid: ab653db2c9f4049ada3896888a5dad40, type: 3}

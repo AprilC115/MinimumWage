@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Main
+  - Burger
+  - Hotdog
+  - Bacon
+  - Fries
+  - Wine
+  - Beer
   layers:
   - Default
   - TransparentFX

@@ -90,6 +90,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d1f718adca419486b9254998edfbfdeb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6223156720018039879}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d1f718adca419486b9254998edfbfdeb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6290563792755379871}
     - targetCorrespondingSourceObject: {fileID: -210628047741882936, guid: d1f718adca419486b9254998edfbfdeb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8837513735388709529}
@@ -261,6 +264,20 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &6290563792755379871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595785000782960794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eca752422db30e4da28cf0a2523a10e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrderItem
+  type: 2
+  itemName: Beer
 --- !u!1 &4488141586627433563 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6580564794321161840, guid: d1f718adca419486b9254998edfbfdeb, type: 3}

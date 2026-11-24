@@ -122,6 +122,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: caa669e5a949248348d88fe4748b8099, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1216616001132156462}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: caa669e5a949248348d88fe4748b8099, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5431756217158772351}
     - targetCorrespondingSourceObject: {fileID: -5066323721188997168, guid: caa669e5a949248348d88fe4748b8099, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6781618354593077949}
@@ -150,7 +153,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6691779429989037952, guid: caa669e5a949248348d88fe4748b8099, type: 3}
 --- !u!1 &3511411967505682201 stripped
@@ -383,6 +386,19 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-5431756217158772351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3511411967505682201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d97ff938ce8abea4982dcc0942e10923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HotDogIngrediant
+  type: 0
 --- !u!4 &4319191977196983715 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: caa669e5a949248348d88fe4748b8099, type: 3}

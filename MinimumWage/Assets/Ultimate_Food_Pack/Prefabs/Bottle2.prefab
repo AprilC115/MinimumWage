@@ -94,6 +94,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a19e0c8d1d99944849a2ff297956d00d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1456815741191016760}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a19e0c8d1d99944849a2ff297956d00d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1972473510827235960}
     - targetCorrespondingSourceObject: {fileID: -9179169180046411094, guid: a19e0c8d1d99944849a2ff297956d00d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9022649532826674210}
@@ -349,6 +352,20 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &-1972473510827235960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053807272699624379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eca752422db30e4da28cf0a2523a10e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrderItem
+  type: 2
+  itemName: Wine
 --- !u!1 &8142726299092134645 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8313169498478275615, guid: a19e0c8d1d99944849a2ff297956d00d, type: 3}

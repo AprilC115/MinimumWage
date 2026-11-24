@@ -90,6 +90,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a78e6aa53500f453293077381a21b226, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4017306812452201995}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a78e6aa53500f453293077381a21b226, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6030903648640447994}
     - targetCorrespondingSourceObject: {fileID: -2751841459878512889, guid: a78e6aa53500f453293077381a21b226, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7318498005039042306}
@@ -261,6 +264,20 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &6030903648640447994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691470734916114097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eca752422db30e4da28cf0a2523a10e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OrderItem
+  type: 1
+  itemName: Fries
 --- !u!1 &4238602436517189476 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2407926133189229700, guid: a78e6aa53500f453293077381a21b226, type: 3}

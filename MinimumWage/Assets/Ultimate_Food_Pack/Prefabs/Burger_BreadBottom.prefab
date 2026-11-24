@@ -151,6 +151,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a63114e8d5d134d9b8370dec53dc971f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4514504004057478890}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a63114e8d5d134d9b8370dec53dc971f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7073613652029671568}
     - targetCorrespondingSourceObject: {fileID: 9076785972034840854, guid: a63114e8d5d134d9b8370dec53dc971f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 837572744653671153}
@@ -351,7 +354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
   m_InteractionManager: {fileID: 0}
   m_InteractionLayers:
-    m_Bits: 4294967295
+    m_Bits: 2
   m_Handedness: 0
   m_AttachTransform: {fileID: 4473374117193531533}
   m_KeepSelectedTargetValid: 1
@@ -385,6 +388,20 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!114 &7073613652029671568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3739848458291359021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d0cdf6b10c9f74b85dffb4c7cd683f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BurgerIngrediant
+  topBunSocket: {fileID: 0}
+  type: 0
 --- !u!4 &4084005061583173527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a63114e8d5d134d9b8370dec53dc971f, type: 3}
