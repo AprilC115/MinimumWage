@@ -63,7 +63,7 @@ public class OrderManager : MonoBehaviour
         } while (
             requiredSide.itemName + requiredMain.itemName +
             requiredDrink.itemName == previousOrder
-            && attempts < 30
+            && attempts < 5
         );
 
         previousOrder = requiredSide.itemName +
