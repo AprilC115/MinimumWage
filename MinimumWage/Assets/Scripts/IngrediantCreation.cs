@@ -40,8 +40,6 @@ public class IngrediantCreation : MonoBehaviour
 
         BurgerIngrediant burgerIngrediant = ingrediantIns.GetComponent<BurgerIngrediant>();
 
-        
-
         if (burgerIngrediant != null && burgerIngrediant.type == BurgerIngrediant.Type.BottomBun)
         {
             burgerAssemblyManager.RegisterBottomBun(ingrediantIns);

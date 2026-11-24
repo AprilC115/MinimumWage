@@ -30,13 +30,12 @@ public class OrderManager : MonoBehaviour
     private int score = 0;
 
     private string previousOrder = "";
-    private AudioSource audio;
+    public AudioSource audio;
 
     private void Start()
     {
         UpdateScore();
         GenerateOrder();
-        audio = GetComponent<AudioSource>();
     }
 
     private void GenerateOrder()
@@ -63,7 +62,7 @@ public class OrderManager : MonoBehaviour
         } while (
             requiredSide.itemName + requiredMain.itemName +
             requiredDrink.itemName == previousOrder
-            && attempts < 5
+            && attempts < 30
         );
 
         previousOrder = requiredSide.itemName +

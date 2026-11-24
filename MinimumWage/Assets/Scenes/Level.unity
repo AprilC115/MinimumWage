@@ -1403,7 +1403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8135023674665499069, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1781,8 +1781,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.15294576, y: 0.092339754, z: 0.14944613}
-  m_Center: {x: -0.001444459, y: 0.04335916, z: -0.003107369}
+  m_Size: {x: 0.15294576, y: 0.11108661, z: 0.14944613}
+  m_Center: {x: -0.001444459, y: 0.061418414, z: -0.003107369}
 --- !u!114 &202717371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1795,7 +1795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
-  m_InteractionManager: {fileID: 992931803}
+  m_InteractionManager: {fileID: 0}
   m_Colliders:
   - {fileID: 202717370}
   m_InteractionLayers:
@@ -2371,6 +2371,10 @@ PrefabInstance:
     - target: {fileID: 8877177980677234388, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_EnableNearCasting
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877177980677234388, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8877177980677234388, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
@@ -10016,6 +10020,7 @@ MonoBehaviour:
   drinks:
   - {fileID: 6290563792755379871, guid: 20120a5e7b83149658857c47433307a5, type: 3}
   - {fileID: -1972473510827235960, guid: b54208dce628f47a88057a3206e24199, type: 3}
+  audio: {fileID: 202717372}
 --- !u!1 &1912386020 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a59396679bd466e4cbcdbe9d05b11bcf, type: 3}
